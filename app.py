@@ -8,7 +8,7 @@ CORS(app)
 def index():
     return jsonify({
         'status': 'success',
-        'message': 'Welcome to the API'
+        'message': 'Welcome to the API. we are using GH and Jenkins'
     })
 
 @app.route('/process', methods=['POST'])
